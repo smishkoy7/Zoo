@@ -34,7 +34,9 @@ public class Main {
                 break;
             } else {
                 // Выводим введенные данные
-                System.out.println("Вы выбрали отдел: " + department + " - " + departmens.get(department));
+                //System.out.println("Вы выбрали отдел: " + department + " - " + departmens.get(department));
+                System.out.printf("Вы выбрали отдел: %d - %s", department, departmens.get(department));
+
             }
         }//while
         scanner.close();
